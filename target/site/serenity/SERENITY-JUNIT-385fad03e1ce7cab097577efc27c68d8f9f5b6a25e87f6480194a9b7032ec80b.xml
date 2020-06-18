@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="2" name="Login Depo Web" skipped="0" tests="2" time="83.72" timestamp="2020-06-18 12:38:24"><testcase name="Verify valid login for Depo web"><failure message="User is not logged In!" type="java.lang.AssertionError">User is not logged In!</failure><system-err>User is not logged In!&#13;
+starter.navigation.DepoHomePage.userShouldBeLoggedIn(DepoHomePage.java:30)&#13;
+starter.search.DepoHomeStep.theUserShouldBeLoggedIn(DepoHomeStep.java:26)&#13;
+starter.stepdefinitions.HomePageStepDefinitions.user_should_be_logged_in(HomePageStepDefinitions.java:31)&#13;
+✽.user should be logged in(file:///C:/Users/Ramana.Sadaneni/OneDrive%20-%20Royal%20Mail%20Group%20Ltd/Desktop/New%20folder%20(2)/Automation%20Framework/src/test/resources/features/search/Login.feature:8)&#13;
+</system-err></testcase><testcase name="Verify user with invalid username and paswword tries to login is not able to login"><failure message="expected:&lt;[Invalid username or password. Please try again]&gt; but was:&lt;[An unknown error has occurred]&gt;" type="java.lang.AssertionError">expected:&lt;[Invalid username or password. Please try again]&gt; but was:&lt;[An unknown error has occurred]&gt;</failure><system-err>expected:&lt;[Invalid username or password. Please try again]&gt; but was:&lt;[An unknown error has occurred]&gt;&#13;
+starter.navigation.LoginPage.validateErrorMessageForInvalidUserNameAndPwd(LoginPage.java:42)&#13;
+starter.search.LoginStep.userShouldSeeTheErrorMessage(LoginStep.java:19)&#13;
+starter.stepdefinitions.LoginStepDefinitions.theUserShouldNotBeLoggedIn(LoginStepDefinitions.java:27)&#13;
+✽.user should not be logged in(file:///C:/Users/Ramana.Sadaneni/OneDrive%20-%20Royal%20Mail%20Group%20Ltd/Desktop/New%20folder%20(2)/Automation%20Framework/src/test/resources/features/search/Login.feature:42)&#13;
+</system-err></testcase></testsuite>

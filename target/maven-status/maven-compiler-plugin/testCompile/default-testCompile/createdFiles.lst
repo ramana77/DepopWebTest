@@ -1,0 +1,7 @@
+starter\stepdefinitions\LoginStepDefinitions.class
+starter\search\DepoHomeStep.class
+starter\CucumberTestSuite.class
+starter\navigation\DepoHomePage.class
+starter\navigation\LoginPage.class
+starter\search\LoginStep.class
+starter\stepdefinitions\HomePageStepDefinitions.class

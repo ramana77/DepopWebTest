@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: Login Depo Web
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 84.257 s <<< FAILURE! - in Login Depo Web
+Login Depo Web.Verify valid login for Depo web  Time elapsed: 24.105 s  <<< FAILURE!
+java.lang.AssertionError: User is not logged In!
+
+Login Depo Web.Verify user with invalid username and paswword tries to login is not able to login  Time elapsed: 18.798 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[Invalid username or password. Please try again]> but was:<[An unknown error has occurred]>
+
